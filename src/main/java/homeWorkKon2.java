@@ -18,9 +18,9 @@ public class homeWorkKon2 {
         System.out.println("Введите город проживания :");
         String city = in.nextLine();
         System.out.println("Введите свой возраст :");
-        int age = in.nextInt();
+        Integer age = in.nextInt();
         System.out.println("Введите свое хобби");
-        String hobby = in.nextLine();
+        String hobby = in.next();
 
         System.out.println("имя:   "+name);
         System.out.println("Город: "+ city);
