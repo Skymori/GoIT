@@ -1,5 +1,6 @@
 package main.java;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class homeWorkKon3 {
@@ -16,6 +17,8 @@ public class homeWorkKon3 {
             }
             i++;
         }
+        String res = Arrays.toString(arr);
 
     }
+
 }
